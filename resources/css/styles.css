@@ -24,11 +24,12 @@ p {
 
 .bottom-title {
   color: white;
-  background-image: url("../images/the-flatiron-building.png");
+  background: no-repeat center/100% url("../images/the-flatiron-building.png");
 }
 
 .header {
   background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
   color: white;
 }
 
@@ -40,6 +41,7 @@ a {
 .footer {
   background-color: dimgray;
   color: white;
+  text-align: left;
 }
 
 #copyright {
